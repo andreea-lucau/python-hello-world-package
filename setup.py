@@ -6,6 +6,7 @@ setup(
     description="Template package for Python",
     author="Andreea Lucau",
     author_email="andreea.lucau@gmail.com",
+    url="https://github.com/andreea-lucau/python-hello-world-package",
     packages=find_packages("src"),
     package_dir = {
         "": "src",
