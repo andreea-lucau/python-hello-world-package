@@ -1,14 +1,14 @@
 # python-hello-world-package
 Template for python packages
 
-* Create tar ball
-    python setup.py sdist
+### Create tar ball
+python setup.py sdist
 
-* Install
-    python setup.py install
+### Install
+python setup.py install
 
-* Run tests
-    python setup.py test
+### Run tests
+python setup.py test
 
-* Generate documentation
-    python setup.py build_sphinx
+### Generate documentation
+python setup.py build_sphinx
