@@ -4,6 +4,7 @@ import sys
 
 
 class Error(Exception):
+    """Module-specific exception class."""
     pass
 
 
@@ -26,8 +27,8 @@ def is_valid_name(name):
     if not name[0].isupper():
         return False
 
-    for c in name:
-        if not c.isalpha():
+    for char in name:
+        if not char.isalpha():
             return False
 
     return True
@@ -52,11 +53,13 @@ def get_greeting(name):
 
 
 def print_usage():
+    """Usage for greeting.py script."""
     print "Usage:"
     print "./hello <name>"
 
 
 def main():
+    """The corresponding main function for the module."""
     if len(sys.argv) != 2:
         print "Invalid parameters!"
         print_usage()

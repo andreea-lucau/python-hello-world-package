@@ -12,3 +12,6 @@ python setup.py test
 
 ### Generate documentation
 python setup.py build_sphinx
+
+### Run linter
+python setup.py lint

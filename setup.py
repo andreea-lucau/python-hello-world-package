@@ -15,5 +15,9 @@ setup(
         "hello": ["data/greeting_templates.txt"],
     },
     test_suite="tests",
-    install_requires=["setuptools", "Sphinx"],
+    install_requires=[
+        "setuptools",
+        "setuptools-lint",
+        "Sphinx"
+    ],
 )

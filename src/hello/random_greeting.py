@@ -1,6 +1,12 @@
 "Say a random hello."
 
-from greeting import is_valid_name
+import random
+
+from hello.greeting import is_valid_name
+
+class Error(Exception):
+    """Module-specific exception class."""
+    pass
 
 
 def get_random_greeting(name):
