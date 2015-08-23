@@ -1,3 +1,4 @@
 *.pyc
 dist/*
 build/lib*
+src/*.egg-info/*
